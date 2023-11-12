@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar for larger screens */}
-      <main className="hidden md:flex w-full items-center justify-between px-10 py-4">
+      <main className="absolute z-10 hidden md:flex w-full items-center justify-between px-10 py-4">
         <Link href={"/"} className="font-bold text-3xl">
           Travo
         </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
       </main>
 
       {/* Navbar for smaller screens */}
-      <main className="md:hidden border-2 w-full items-center justify-between px-4 py-4">
+      <main className="absolute z-10 md:hidden w-full items-center justify-between px-4 py-4">
         <Link href={"/"} className="font-bold text-3xl">
           Travo
         </Link>
