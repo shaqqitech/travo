@@ -1,9 +1,13 @@
 import Main from './components/Main'
+import PopularPlaces from './components/PopularPlaces'
+import SearchMenu from './components/SearchMenu'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-screen">
+    <main className="">
       <Main />
+      <SearchMenu />
+      <PopularPlaces />
     </main>
   )
 }
