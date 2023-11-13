@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <main>
 
-    <div className="w-screen h-screen grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:pt-32 lg:p-12 z-10">
+    <div className="w-screen h-full grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:pt-32 lg:p-12 z-10">
       {/* Left Box */}
       <div className="w-full h-full flex justify-center items-center md:items-start p-4 md:p-8 relative">
         <div className="w-full h-full pt-24 md:pl-0 lg:pl-10 md:pt-16">
@@ -27,18 +27,16 @@ const Main = () => {
 
       </div>
       {/* Right Box */}
-      <div className="relative">
-          <div className="w-full h-96 md:h-full">
-            <Image
-              src={HomePic}
-              alt="Home Pic"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
-              className="rounded-lg"
-            />
-          </div>
-        </div>
+      <div className="relative w-full h-full">
+        <Image
+          src={HomePic}
+          alt="Home Pic"
+          width={1}
+          height={1}
+          sizes="100%"
+          className="w-full h-auto"
+        />
+      </div>
     </div>
     
     </main>

@@ -27,7 +27,7 @@ const PopularPlaces = () => {
         </ul>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
         {data.map((item, ind) => (
           <div key={ind} className="w-full md:w-80">
             <div className="border-2 rounded-lg shadow-lg">
