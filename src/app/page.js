@@ -4,6 +4,7 @@ import SearchMenu from './components/SearchMenu'
 import ExplorePlaces from './components/ExplorePlaces'
 import Destinations from './components/Destinations'
 import Copyright from './components/Copyright'
+import Gallery from './components/Gallery'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <PopularPlaces />
       <ExplorePlaces />
       <Destinations />
+      <Gallery />
       <Copyright />
     </main>
   )
