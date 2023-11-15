@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { AiFillStar } from "react-icons/ai";
 import Image from "next/image";
@@ -7,22 +8,81 @@ import Beach1 from "../../../public/popularPlaces/Beach1.jpg";
 import Beach2 from "../../../public/popularPlaces/Beach2.jpg";
 import Beach3 from "../../../public/popularPlaces/Beach3.jpg";
 
+import Mountain1 from "../../../public/popularPlaces/mountain1.jpg";
+import Mountain2 from "../../../public/popularPlaces/mountain2.jpg";
+import Mountain3 from "../../../public/popularPlaces/mountain3.jpg";
+
+import Iceberg1 from "../../../public/popularPlaces/iceberg1.jpg";
+import Iceberg2 from "../../../public/popularPlaces/iceberg2.jpg";
+import Iceberg3 from "../../../public/popularPlaces/iceberg3.jpg";
+
+import Waterfall1 from "../../../public/popularPlaces/waterfall1.jpg";
+import Waterfall2 from "../../../public/popularPlaces/Beach2.jpg";
+import Waterfall3 from "../../../public/popularPlaces/waterfall3.jpg";
+
 const PopularPlaces = () => {
-  const data = [
-    { name: "Siasconset Beach", img: Beach1, place: "Island", rating: '4.5' },
-    { name: "HorseShoe Bay", img: Beach2, place: "Indonesia", rating: '4.7' },
-    { name: "Virgin Gorda", img: Beach3, place: "Japan", rating: '4.4' },
-  ];
+  const [data, setData] = useState([
+    {
+      name: 'Siasconset Beach',
+      img: Beach1,
+      place: 'Island',
+      rating: '4.5',
+    },
+    {
+      name: 'HorseShoe Bay',
+      img: Mountain1,
+      place: 'Indonesia',
+      rating: '4.7',
+    },
+    {
+      name: 'Virgin Gorda',
+      img: Waterfall1,
+      place: 'Japan',
+      rating: '4.4',
+    },
+  ]);
+
+  const handleBeachClick = () => {
+    setData([
+      { name: "Siasconset Beach", img: Beach1, place: "Island", rating: '4.5' },
+      { name: "HorseShoe Bay", img: Beach2, place: "Indonesia", rating: '4.7' },
+      { name: "Virgin Gorda", img: Beach3, place: "Japan", rating: '4.4' },
+    ]);
+  };
+
+  const handleMountainClick = () => {
+    setData([
+      { name: "Siasconset Beach", img: Mountain1, place: "Island", rating: '4.5' },
+      { name: "HorseShoe Bay", img: Mountain2, place: "Indonesia", rating: '4.7' },
+      { name: "Virgin Gorda", img: Mountain3, place: "Japan", rating: '4.4' },
+    ]);
+  };
+
+  const handleWaterfallClick = () => {
+    setData([
+      { name: "Siasconset Beach", img: Waterfall1, place: "Island", rating: '4.5' },
+      { name: "HorseShoe Bay", img: Waterfall2, place: "Indonesia", rating: '4.7' },
+      { name: "Virgin Gorda", img: Waterfall3, place: "Japan", rating: '4.4' },
+    ]);
+  };
+
+  const handleIcebergClick = () => {
+    setData([
+      { name: "Siasconset Beach", img: Iceberg1, place: "Island", rating: '4.5' },
+      { name: "HorseShoe Bay", img: Iceberg2, place: "Indonesia", rating: '4.7' },
+      { name: "Virgin Gorda", img: Iceberg3, place: "Japan", rating: '4.4' },
+    ]);
+  };
 
   return (
     <main className="w-full flex flex-col justify-center items-center px-4 lg:px-8 py-8 md:py-10">
       <div className="w-full flex flex-col lg:px-28 lg:flex-row justify-between items-center">
         <h1 className="text-4xl font-bold mb-4 lg:mb-0">Popular Places</h1>
         <ul className="flex flex-wrap justify-center items-center space-x-2 lg:space-x-5">
-          <li className="cursor-pointer font-semibold my-1">Beach</li>
-          <li className="cursor-pointer font-semibold my-1">Mountain</li>
-          <li className="cursor-pointer font-semibold my-1">Waterfall</li>
-          <li className="cursor-pointer font-semibold my-1">Iceberg</li>
+          <li className="cursor-pointer font-semibold my-1" onClick={handleBeachClick}>Beach</li>
+          <li className="cursor-pointer font-semibold my-1" onClick={handleMountainClick}>Mountain</li>
+          <li className="cursor-pointer font-semibold my-1" onClick={handleWaterfallClick}>Waterfall</li>
+          <li className="cursor-pointer font-semibold my-1" onClick={handleIcebergClick}>Iceberg</li>
           <li className="cursor-pointer font-semibold text-orange-500 my-1">View all</li>
         </ul>
       </div>
