@@ -1,7 +1,20 @@
 import React from "react";
-import Beach1 from "../../../public/popularPlaces/Beach1.jpg";
-import Beach2 from "../../../public/popularPlaces/Beach2.jpg";
-import Beach3 from "../../../public/popularPlaces/Beach3.jpg";
+import Travel1 from '../../../public/travel/travel1.jpg';
+import Travel2 from '../../../public/travel/travel2.jpg';
+import Travel3 from '../../../public/travel/travel3.jpg';
+import Travel4 from '../../../public/travel/travel4.jpg';
+import Travel5 from '../../../public/travel/travel5.jpg';
+import Travel6 from '../../../public/travel/travel6.jpg';
+import Travel7 from '../../../public/travel/travel7.jpg';
+import Travel8 from '../../../public/travel/travel8.jpg';
+import Travel9 from '../../../public/travel/travel9.jpg';
+import Travel10 from '../../../public/travel/travel10.jpg';
+import Travel11 from '../../../public/travel/travel11.jpg';
+import Travel12 from '../../../public/travel/travel12.jpg';
+import Travel13 from '../../../public/travel/travel13.jpg';
+import Travel14 from '../../../public/travel/travel14.jpg';
+import Travel15 from '../../../public/travel/travel15.jpg';
+import Travel16 from '../../../public/travel/travel16.jpg';
 import Image from "next/image";
 
 const Gallery = () => {
@@ -20,7 +33,7 @@ const Gallery = () => {
         <div className="flex flex-col gap-6">
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel1}
               alt="image"
               width={1}
               height={1}
@@ -30,7 +43,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel2}
               alt="image"
               width={1}
               height={1}
@@ -40,7 +53,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach3}
+              src={Travel3}
               alt="image"
               width={1}
               height={1}
@@ -50,7 +63,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel4}
               alt="image"
               width={1}
               height={1}
@@ -64,7 +77,7 @@ const Gallery = () => {
         <div className="flex flex-col gap-6">
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel5}
               alt="image"
               width={1}
               height={1}
@@ -74,7 +87,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach3}
+              src={Travel6}
               alt="image"
               width={1}
               height={1}
@@ -84,7 +97,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel7}
               alt="image"
               width={1}
               height={1}
@@ -94,7 +107,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel8}
               alt="image"
               width={1}
               height={1}
@@ -107,7 +120,7 @@ const Gallery = () => {
         <div className="flex flex-col gap-6">
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel9}
               alt="image"
               width={1}
               height={1}
@@ -117,7 +130,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel10}
               alt="image"
               width={1}
               height={1}
@@ -127,7 +140,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach3}
+              src={Travel11}
               alt="image"
               width={1}
               height={1}
@@ -137,7 +150,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel12}
               alt="image"
               width={1}
               height={1}
@@ -151,7 +164,7 @@ const Gallery = () => {
         <div className="flex flex-col gap-6">
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel13}
               alt="image"
               width={1}
               height={1}
@@ -161,7 +174,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach3}
+              src={Travel14}
               alt="image"
               width={1}
               height={1}
@@ -171,7 +184,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
             <Image
-              src={Beach1}
+              src={Travel15}
               alt="image"
               width={1}
               height={1}
@@ -181,7 +194,7 @@ const Gallery = () => {
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
-              src={Beach2}
+              src={Travel16}
               alt="image"
               width={1}
               height={1}
@@ -190,8 +203,7 @@ const Gallery = () => {
             />
           </div>
         </div>
-        {/* Repeat similar patterns for the 3rd and 4th columns */}
-        {/* ... */}
+
       </div>
     </main>
   );
