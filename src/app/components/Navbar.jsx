@@ -19,10 +19,10 @@ const Navbar = () => {
           Travo
         </Link>
         <ul className="flex items-center space-x-8 font-semibold">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">Category</li>
-          <li className="cursor-pointer">Blog</li>
-          <li className="cursor-pointer">About Us</li>
+          <li className="cursor-pointer hover:text-orange-400">Home</li>
+          <li className="cursor-pointe hover:text-orange-400">Category</li>
+          <li className="cursor-pointer hover:text-orange-400">Blog</li>
+          <li className="cursor-pointer hover:text-orange-400">About Us</li>
         </ul>
         <Link
           href={"/"}

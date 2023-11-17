@@ -30,6 +30,7 @@ const Gallery = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 py-6 md:py-12">
+        
         <div className="flex flex-col gap-6">
           <div className="w-full h-72 overflow-hidden rounded-lg">
             <Image
@@ -38,7 +39,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -48,7 +49,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -58,7 +59,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -68,7 +69,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
         </div>
@@ -82,7 +83,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -92,7 +93,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -102,7 +103,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -112,7 +113,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
         </div>
@@ -125,7 +126,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -135,7 +136,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -145,7 +146,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -155,7 +156,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
         </div>
@@ -169,7 +170,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -179,7 +180,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-48 overflow-hidden rounded-lg">
@@ -189,7 +190,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
           <div className="w-full h-72 overflow-hidden rounded-lg">
@@ -199,7 +200,7 @@ const Gallery = () => {
               width={1}
               height={1}
               sizes="100%"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg hover:scale-110 duration-150"
             />
           </div>
         </div>

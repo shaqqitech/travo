@@ -122,17 +122,17 @@ const PopularPlaces = () => {
       <div className="w-full flex flex-col lg:px-28 lg:flex-row justify-between items-center">
         <h1 className="text-4xl font-bold mb-4 lg:mb-0">Explore Places</h1>
         <ul className="flex flex-wrap justify-center items-center space-x-2 lg:space-x-5">
-        <li className="cursor-pointer font-semibold my-1" onClick={handleBeachClick}>Beach</li>
-          <li className="cursor-pointer font-semibold my-1" onClick={handleMountainClick}>Mountain</li>
-          <li className="cursor-pointer font-semibold my-1" onClick={handleWaterfallClick}>Waterfall</li>
-          <li className="cursor-pointer font-semibold my-1" onClick={handleIcebergClick}>Iceberg</li>
+        <li className="cursor-pointer font-semibold my-1 hover:text-orange-400" onClick={handleBeachClick}>Beach</li>
+          <li className="cursor-pointer font-semibold my-1 hover:text-orange-400" onClick={handleMountainClick}>Mountain</li>
+          <li className="cursor-pointer font-semibold my-1 hover:text-orange-400" onClick={handleWaterfallClick}>Waterfall</li>
+          <li className="cursor-pointer font-semibold my-1 hover:text-orange-400" onClick={handleIcebergClick}>Iceberg</li>
           <li className="cursor-pointer font-semibold text-orange-500 my-1">View all</li>
         </ul>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8 ">
         {data.map((item, ind) => (
-          <div key={ind} className="w-full md:w-80">
+          <div key={ind} className="w-full md:w-80 hover:scale-105 duration-150">
             <div className="border-2 rounded-lg shadow-lg">
               <div className="h-48 md:h-52 rounded-t-lg overflow-hidden relative">
                 <Image src={item.img} alt="Beach Image" layout="fill" objectFit="cover" />

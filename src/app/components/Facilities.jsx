@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HomePic from "../../../public/main.png";
+import HomePic from "../../../public/explore.png";
 import { MdFlightTakeoff, MdWifi, MdHotel, MdFastfood } from "react-icons/md";
 
 const Facilities = () => {
@@ -25,12 +25,12 @@ const Facilities = () => {
             </div>
             <div className="grid place-content-center grid-cols-2 text-xl  w-full lg:w-4/5">
                 <div className="flex flex-col space-y-2">
-                    <h1 className="w-full font-bold gap-3 flex items-center"><MdFlightTakeoff />Flight</h1>
-                    <h1 className="w-full font-bold gap-3 flex items-center"><MdWifi />Wifi</h1>
+                    <h1 className="w-full font-bold gap-3 flex items-center"><MdFlightTakeoff className="text-orange-500" />Flight</h1>
+                    <h1 className="w-full font-bold gap-3 flex items-center"><MdWifi className="text-orange-500" />Wifi</h1>
                 </div>
                 <div className="flex flex-col space-y-2">
-                    <h1 className="w-full font-bold gap-3 flex items-center"><MdHotel />Hotel</h1> 
-                    <h1 className="w-full font-bold gap-3 flex items-center"><MdFastfood />Food</h1>
+                    <h1 className="w-full font-bold gap-3 flex items-center"><MdHotel className="text-orange-500" />Hotel</h1> 
+                    <h1 className="w-full font-bold gap-3 flex items-center"><MdFastfood className="text-orange-500" />Food</h1>
                 </div>
 
             </div>

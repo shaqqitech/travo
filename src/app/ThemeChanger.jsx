@@ -14,7 +14,7 @@ const ThemeChanger = () => {
 
   return (
     <div
-      className="sticky w-12 h-12 border-4 border-black dark:border-white rounded-full left-5 bottom-5 flex justify-center items-center cursor-pointer"
+      className="sticky w-12 h-12 border-4 border-black dark:border-white rounded-full left-5 bottom-5 flex justify-center items-center cursor-pointer z-50"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "dark" ? (
